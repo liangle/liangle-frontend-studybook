@@ -9,10 +9,9 @@ function insertion_sort(nums) {
   for (let i = 1, len = nums.length; i < len; i++) { //从第二个数开始比较
     //将0至i之间的数字，从右到左进行对比，做一次冒泡排序
     //因为原来0至(i-1)是有序的，加入i之后做一次冒泡排序，这段区间再次变得有序
-    for (let j = i; j > 0; j--) {
-      if (nums[j] < nums[j - 1]) { //如果当前数字小于前一个数字则交换位置，否则结束冒泡
-        [nums[j], nums[j - 1]] = [nums[j - 1], nums[j]]
-      }
+    for (let j = i; j > 0 && nums[j] < nums[j - 1]; j--) {
+      //如果当前数字小于前一个数字则交换位置，否则结束冒泡
+      [nums[j], nums[j - 1]] = [nums[j - 1], nums[j]]
     }
   }
   return nums
