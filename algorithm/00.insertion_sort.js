@@ -2,7 +2,7 @@
  * 插入排序
  * @param nums 要排序的数组  
  */
-function insertion_sort(nums) {
+function insertionSort(nums) {
   if (!nums || nums.length < 2) return nums
 
   //插入排序特点：数组的左边维护着一段有序区间
@@ -17,8 +17,8 @@ function insertion_sort(nums) {
   return nums
 }
 
-console.log(insertion_sort(null));
-console.log(insertion_sort(undefined));
-console.log(insertion_sort([1]));
+console.log(insertionSort(null));
+console.log(insertionSort(undefined));
+console.log(insertionSort([1]));
 const nums = [9, 2, 4, 8, 6, 3, 7, 0, 1, 5]
-console.log(insertion_sort(nums));
+console.log(insertionSort(nums));

@@ -2,7 +2,7 @@
  * 选择排序
  * @param nums 要排序的数组  
  */
-function selection_sort(nums) {
+function selectionSort(nums) {
   if (!nums || nums.length < 2) return nums
 
   let minIndex
@@ -25,8 +25,8 @@ function selection_sort(nums) {
   return nums
 }
 
-console.log(selection_sort(null));
-console.log(selection_sort(undefined));
-console.log(selection_sort([1]));
+console.log(selectionSort(null));
+console.log(selectionSort(undefined));
+console.log(selectionSort([1]));
 const nums = [9, 2, 4, 8, 6, 3, 7, 0, 1, 5]
-console.log(selection_sort(nums));
+console.log(selectionSort(nums));

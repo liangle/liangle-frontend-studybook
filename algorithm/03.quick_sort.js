@@ -2,14 +2,14 @@
  * 快速排序
  * @param nums 要排序的数组
  */
-function quick_sort(nums, start, end) {
+function quickSort(nums, start, end) {
   if (!nums || nums.length < 2) return nums
 
   //快速排序是用分治的思想，把数组分为大小两个区，再分别对两块区再进行快速排序
   if (start < end) {
     let base = partition(nums, start, end)
-    quick_sort(nums, start, base - 1)
-    quick_sort(nums, base + 1, end)
+    quickSort(nums, start, base - 1)
+    quickSort(nums, base + 1, end)
   }
 
   return nums
@@ -35,8 +35,8 @@ function partition(nums, start, end) {
   return minEnd + 1
 }
 
-console.log(quick_sort(null));
-console.log(quick_sort(undefined));
-console.log(quick_sort([1]));
+console.log(quickSort(null));
+console.log(quickSort(undefined));
+console.log(quickSort([1]));
 const nums = [9, 2, 4, 8, 6, 3, 7, 0, 1, 5]
-console.log(quick_sort(nums, 0, nums.length - 1));
+console.log(quickSort(nums, 0, nums.length - 1));

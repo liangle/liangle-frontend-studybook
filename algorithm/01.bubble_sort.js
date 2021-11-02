@@ -2,7 +2,7 @@
  * 冒泡排序
  * @param nums 要排序的数组  
  */
-function bubble_sort(nums) {
+function bubbleSort(nums) {
   if (!nums || nums.length < 2) return nums
 
   //冒泡排序特点：数组的右边维护着一段有序并且位置不再变化的区间
@@ -18,8 +18,8 @@ function bubble_sort(nums) {
   return nums
 }
 
-console.log(bubble_sort(null));
-console.log(bubble_sort(undefined));
-console.log(bubble_sort([1]));
+console.log(bubbleSort(null));
+console.log(bubbleSort(undefined));
+console.log(bubbleSort([1]));
 const nums = [9, 2, 4, 8, 6, 3, 7, 0, 1, 5]
-console.log(bubble_sort(nums));
+console.log(bubbleSort(nums));
