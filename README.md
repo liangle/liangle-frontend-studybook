@@ -23,8 +23,7 @@
 
   - 2021-11-01 刷算法题
 
-    - 判断链表是否有环
-    - 找出有环链表中环的起始节点
+    - 判断链表是否有环、找出有环链表中环的第一个节点 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/06.cycle.js) + 视频 [地址](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/06.cycle.js)
 
   - 2021-11-02 刷算法题
 
@@ -33,5 +32,5 @@
     - 判断回文数 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/09.is-palindrome.js)
 
   - 2021-11-03 刷算法题
-    - 二叉树的前序遍历
+    - 二叉树的前序遍历 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/10.binary-tree-traversal.js)
     - 计数排序
