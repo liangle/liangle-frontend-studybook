@@ -15,11 +15,11 @@
 
   - 2021.10.28 排序算法学习 [总结](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/README.md)
 
-    - 插入排序 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/00.insertion_sort.js) + 视频[地址](https://www.bilibili.com/video/BV14r4y1C7q5)
-    - 冒泡排序 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/01.bubble_sort.js)
-    - 选择排序 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/02.selection_sort.js)
-    - 快速排序 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/03.quick_sort.js)
-    - 希尔排序 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/04.shell_sort.js)
+    - 插入排序 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/00.insertion-sort.js) + 视频[地址](https://www.bilibili.com/video/BV14r4y1C7q5)
+    - 冒泡排序 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/01.bubble-sort.js)
+    - 选择排序 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/02.selection-sort.js)
+    - 快速排序 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/03.quick-sort.js)
+    - 希尔排序 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/04.shell-sort.js)
 
   - 2021-11-01 链表操作
 
