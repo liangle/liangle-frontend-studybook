@@ -21,7 +21,17 @@
     - 快速排序 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/03.quick-sort.js)
     - 希尔排序 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/04.shell-sort.js)
 
-  - 2021-11-01 链表操作
+  - 2021-11-01 刷算法题
 
     - 判断链表是否有环
     - 找出有环链表中环的起始节点
+
+  - 2021-11-02 刷算法题
+
+    - 有效的括号 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/07.valid-string.js)
+    - 合并两个排序的链表 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/08.merge-list.js)
+    - 判断回文数 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/09.is-palindrome.js)
+
+  - 2021-11-03 刷算法题
+    - 二叉树的前序遍历
+    - 计数排序
