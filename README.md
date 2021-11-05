@@ -32,5 +32,10 @@
     - 判断回文数 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/09.is-palindrome.js)
 
   - 2021-11-03 刷算法题
+
     - 二叉树的前序遍历 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/10.binary-tree-traversal.js)
     - 计数排序
+
+  - 2021-11-06 刷算法题
+    - 翻转链表 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/11.reverseList.js)
+    - 链表相交 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/12.get-intersection-node.js)
