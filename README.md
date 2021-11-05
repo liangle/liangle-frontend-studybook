@@ -23,7 +23,7 @@
 
   - 2021-11-01 刷算法题
 
-    - 判断链表是否有环、找出有环链表中环的第一个节点 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/06.cycle.js) + 视频 [地址](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/06.cycle.js)
+    - 判断链表是否有环、找出有环链表中环的第一个节点 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/06.cycle.js) + 视频 [地址](https://www.bilibili.com/video/BV1kf4y1u7oA/)
 
   - 2021-11-02 刷算法题
 
