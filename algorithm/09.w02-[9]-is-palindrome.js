@@ -15,7 +15,7 @@ function isPalindrome(num) {
 }
 
 /**
- * 判断数字是否为回文数
+ * [9. 回文数](https://leetcode-cn.com/problems/palindrome-number/)
  * @param {*} num 
  * @returns 
  */

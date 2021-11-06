@@ -36,7 +36,7 @@ function listToArray(list) {
 }
 
 /**
- * 翻转链表
+ * [剑指 Offer II 024. 反转链表](https://leetcode-cn.com/problems/UHnkqh)
  * @param {*} head 
  */
 function reverseList(head) {

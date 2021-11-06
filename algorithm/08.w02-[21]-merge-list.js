@@ -43,6 +43,12 @@ const list1 = arrayToList(input[0].map(Number))
 const list2 = arrayToList(input[1].map(Number))
 console.log(listToArray(mergeTwoLists(list1, list2)))
 
+/**
+ * [21. 合并两个有序链表](https://leetcode-cn.com/problems/merge-two-sorted-lists/)
+ * @param {*} l1 
+ * @param {*} l2 
+ * @returns 
+ */
 function mergeTwoLists(l1, l2) {
   if (!l1) return l2
   if (!l2) return l1

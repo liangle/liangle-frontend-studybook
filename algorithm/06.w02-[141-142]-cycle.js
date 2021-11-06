@@ -1,5 +1,5 @@
 /**
- * 判断一个链表是否有环
+ * [141. 环形链表](https://leetcode-cn.com/problems/linked-list-cycle/)
  * @param {*} head 
  */
 function hasCycle(head) {
@@ -18,6 +18,7 @@ function hasCycle(head) {
 
 /**
  * 找出环型链表的第一个节点
+ * [142. 环形链表 II](https://leetcode-cn.com/problems/linked-list-cycle-ii/)
  * @param {*} head 
  */
 function detectCycle(head) {

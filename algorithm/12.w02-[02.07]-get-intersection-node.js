@@ -36,7 +36,7 @@ function listToArray(list) {
 }
 
 /**
- * 找到两个链表的交叉节点
+ * [面试题 02.07. 链表相交](https://leetcode-cn.com/problems/intersection-of-two-linked-lists-lcci)
  * @param {*} headA 
  * @param {*} headB 
  * @returns 

@@ -47,7 +47,7 @@ function listToArray(list) {
 }
 
 /**
- * 旋转链表
+ * [61. 旋转链表](https://leetcode-cn.com/problems/rotate-list/)
  * 将链表每个节点向右移动 k 个位置。
  * @param {*} head 
  * @param {*} k 
