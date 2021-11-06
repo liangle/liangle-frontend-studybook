@@ -35,35 +35,35 @@ function listToArray(list) {
   return arr
 }
 
+/**
+ * 找到两个链表的交叉节点
+ * @param {*} headA 
+ * @param {*} headB 
+ * @returns 
+ */
 function getIntersectionNode(headA, headB) {
   if (!headA || !headB) return null
-  let end
   let fast = slow = headA
   let stepCount = 0
 
   //先让慢指针走，找到链表结尾
   //把A链表结尾指向B链表
   //转换成找环形链表第一个节点的问题
-  while (slow) {
-    if (slow.next) {
-      stepCount++
-      slow = slow.next
-    } else {
-      end = slow
-      break
-    }
+  while (slow && slow.next) {
+    slow = slow.next
+    stepCount++
   }
 
+  let end = slow
   end.next = headB
-  slow = end
 
   //让快指针走的步数和慢指针一致
-  while (stepCount && fast && fast.next) {
+  while (fast && fast.next && stepCount) {
     fast = fast.next.next
     stepCount--
   }
 
-  if (stepCount === 0) {
+  if (stepCount === 0) { //找环形链表的第一个节点
     while (slow && fast && fast.next) {
       slow = slow.next
       fast = fast.next.next
