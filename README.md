@@ -38,10 +38,11 @@
 
   - 2021-11-05 刷算法题
 
-    - 翻转链表 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/11.w02-[024]-reverseList.js) [力扣](https://leetcode-cn.com/problems/UHnkqh)
+    - 反转链表 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/11.w02-[024]-reverseList.js) 视频 [地址](https://www.bilibili.com/video/BV1Lg411K7py/) [力扣](https://leetcode-cn.com/problems/UHnkqh)
     - 链表相交 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/12.w02-[02.07]-get-intersection-node.js) [力扣](https://leetcode-cn.com/problems/intersection-of-two-linked-lists-lcci)
 
   - 2021-11-06 刷算法题
     - 旋转链表 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/13.w02-[61]-rotate-right.js) [力扣](https://leetcode-cn.com/problems/rotate-list/)
     - 数据流中的第 K 大元素 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/14.w02-[703]-kth-largest.js) [力扣](https://leetcode-cn.com/problems/kth-largest-element-in-a-stream)
-    - 翻转二叉树 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/15.w02-[226]-invert-tree.js) [力扣](https://leetcode-cn.com/problems/invert-binary-tree/)
+    - 反转二叉树 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/15.w02-[226]-invert-tree.js) [力扣](https://leetcode-cn.com/problems/invert-binary-tree/)
+    - 反转字符串 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/16.w02-[344]-reverse-string.js) [力扣](https://leetcode-cn.com/problems/reverse-string/)
