@@ -4,17 +4,18 @@
  */
 function isBalanced(root) {
   if (!root) return true
-  let map = new Map()
-  let leftLen = maxDepth(root.left, map)
-  let rightLen = maxDepth(root.right, map)
-  return (Math.abs(leftLen - rightLen) < 2) && isBalanced(root.left) && isBalanced(root.right)
+  return height(root) >= 0
 }
 
-function maxDepth(root, map) {
+function height(root) {
   if (!root) return 0
-  if (map.has(root)) return map.get(root)
 
-  const len = Math.max(maxDepth(root.left, map), maxDepth(root.right, map)) + 1
-  map.set(root, len)
-  return len
+  let leftLen = height(root.left)
+  let rightLen = height(root.right)
+
+  if (leftLen === -1 || rightLen === -1 || Math.abs(leftLen - rightLen) > 1) {
+    return -1
+  } else {
+    return Math.max(leftLen, rightLen) + 1
+  }
 }
