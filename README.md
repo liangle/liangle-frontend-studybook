@@ -42,7 +42,14 @@
     - 链表相交 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/12.w02-[02.07]-get-intersection-node.js) [力扣](https://leetcode-cn.com/problems/intersection-of-two-linked-lists-lcci)
 
   - 2021-11-06 刷算法题
+
     - 旋转链表 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/13.w02-[61]-rotate-right.js) [力扣](https://leetcode-cn.com/problems/rotate-list/)
     - 数据流中的第 K 大元素 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/14.w02-[703]-kth-largest.js) [力扣](https://leetcode-cn.com/problems/kth-largest-element-in-a-stream)
     - 反转二叉树 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/15.w02-[226]-invert-tree.js) [力扣](https://leetcode-cn.com/problems/invert-binary-tree/)
     - 反转字符串 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/16.w02-[344]-reverse-string.js) [力扣](https://leetcode-cn.com/problems/reverse-string/)
+
+  - 2021-11-07 刷算法题
+
+    - 剑指 Offer 55 - I. 二叉树的深度 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/17.w02-[55]-max-depth.js) [力扣](https://leetcode-cn.com/problems/er-cha-shu-de-shen-du-lcof/)
+    - 35. 搜索插入位置 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/18.w02-[35]-search-insert.js) [力扣](https://leetcode-cn.com/problems/search-insert-position/)
+    - 110. 平衡二叉树 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/19.w02-[110]-is-balanced.js) [力扣](https://leetcode-cn.com/problems/balanced-binary-tree/)

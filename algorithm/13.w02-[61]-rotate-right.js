@@ -53,7 +53,7 @@ function listToArray(list) {
  * @param {*} k 
  */
 function rotateRight(head, k) {
-  if (!head || !head.next) return head
+  if (!head || !head.next || k === 0) return head
 
   let curr = head
   let end
