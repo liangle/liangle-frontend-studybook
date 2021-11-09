@@ -43,46 +43,39 @@ function listToArray(list) {
  */
 function getIntersectionNode(headA, headB) {
   if (!headA || !headB) return null
-  let fast = slow = headA
-  let stepCount = 0
 
   //先让慢指针走，找到链表结尾
   //把A链表结尾指向B链表
   //转换成找环形链表第一个节点的问题
+  let slow = headA
   while (slow && slow.next) {
     slow = slow.next
-    stepCount++
   }
 
   let end = slow
   end.next = headB
 
-  //让快指针走的步数和慢指针一致
-  while (fast && fast.next && stepCount) {
+  let fast = headA
+  slow = headA
+
+  while (slow && fast && fast.next) {
+    slow = slow.next
     fast = fast.next.next
-    stepCount--
-  }
 
-  if (stepCount === 0) { //找环形链表的第一个节点
-    while (slow && fast && fast.next) {
-      slow = slow.next
-      fast = fast.next.next
+    if (!fast) {
+      end.next = null
+      return null
+    }
+    if (fast === slow) {
+      fast = headA
 
-      if (!fast) {
-        end.next = null
-        return null
-      }
-      if (fast === slow) {
-        fast = headA
-
-        while (fast && slow) {
-          if (fast === slow) {
-            end.next = null
-            return fast
-          }
-          fast = fast.next
-          slow = slow.next
+      while (fast && slow) {
+        if (fast === slow) {
+          end.next = null
+          return fast
         }
+        fast = fast.next
+        slow = slow.next
       }
     }
   }

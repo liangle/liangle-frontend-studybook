@@ -51,6 +51,12 @@
   - 2021-11-07 刷算法题
 
     - 剑指 Offer 55 - I. 二叉树的深度 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/17.w02-[55]-max-depth.js) [力扣](https://leetcode-cn.com/problems/er-cha-shu-de-shen-du-lcof/)
-    - 35. 搜索插入位置 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/18.w02-[35]-search-insert.js) [力扣](https://leetcode-cn.com/problems/search-insert-position/)
-    - 110. 平衡二叉树 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/19.w02-[110]-is-balanced.js) [力扣](https://leetcode-cn.com/problems/balanced-binary-tree/)
-    - 13. 罗马数字转整数 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/20.w02-[13]-roman-to-int.js) [力扣](https://leetcode-cn.com/problems/roman-to-integer/)
+    - 搜索插入位置 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/18.w02-[35]-search-insert.js) [力扣](https://leetcode-cn.com/problems/search-insert-position/)
+    - 平衡二叉树 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/19.w02-[110]-is-balanced.js) [力扣](https://leetcode-cn.com/problems/balanced-binary-tree/)
+    - 罗马数字转整数 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/20.w02-[13]-roman-to-int.js) [力扣](https://leetcode-cn.com/problems/roman-to-integer/)
+
+  - 2021-11-08 刷算法题
+
+    - 从尾到头打印链表 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/21.w03-[06]-reverse-print.js) [力扣](https://leetcode-cn.com/problems/cong-wei-dao-tou-da-yin-lian-biao-lcof)
+
+    - 返回倒数第 k 个节点 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/22.w03-[02.02]-kth-to-last.js) [力扣](https://leetcode-cn.com/problems/kth-node-from-end-of-list-lcci/)
