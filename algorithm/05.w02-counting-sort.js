@@ -10,13 +10,10 @@ function countingSort(nums) {
     arr[num]++ //以num为下标的元素值加1
   }
 
-  const ret = []
+  let ret = []
 
   for (let i = 0, len = arr.length; i < len; i++) {
-    while (arr[i]) {
-      ret.push(i)
-      arr[i]--
-    }
+    ret = ret.concat(new Array(arr[i]).fill(i))
   }
 
   return ret
