@@ -58,5 +58,10 @@
   - 2021-11-08 刷算法题
 
     - 从尾到头打印链表 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/21.w03-[06]-reverse-print.js) [力扣](https://leetcode-cn.com/problems/cong-wei-dao-tou-da-yin-lian-biao-lcof)
-
     - 返回倒数第 k 个节点 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/22.w03-[02.02]-kth-to-last.js) [力扣](https://leetcode-cn.com/problems/kth-node-from-end-of-list-lcci/)
+
+  - 2021-11-09 刷算法题
+
+    - K 个一组翻转链表 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/23.w03-[25]-reverse-kgroup.js) [力扣](https://leetcode-cn.com/problems/reverse-nodes-in-k-group/)
+    - 剑指 Offer II 004. 只出现一次的数字 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/24.w03-[004]-single-number.js) [力扣](https://leetcode-cn.com/problems/WGki4K/)
+    - 判断链表是否有环 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/06.w02-[141-142]-cycle.js) + 视频 [地址](https://www.bilibili.com/video/BV1kf4y1u7oA/) [力扣](https://leetcode-cn.com/problems/linked-list-cycle/)
