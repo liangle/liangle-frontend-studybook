@@ -15,7 +15,7 @@
 
   - 2021.10.28 排序算法学习 [总结](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/README.md)
 
-    - 插入排序 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/00.w01-insertion-sort.js) + 视频[地址](https://www.bilibili.com/video/BV14r4y1C7q5)
+    - 插入排序 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/00.w01-insertion-sort.js) + [B 站](https://www.bilibili.com/video/BV14r4y1C7q5)
     - 冒泡排序 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/01.bubble-sort.js)
     - 选择排序 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/02.w1-selection-sort.js)
     - 快速排序 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/03.w1-quick-sort.js)
@@ -23,7 +23,7 @@
 
   - 2021-11-01 刷算法题
 
-    - 判断链表是否有环、找出有环链表中环的第一个节点 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/06.w02-[141-142]-cycle.js) + 视频 [地址](https://www.bilibili.com/video/BV1kf4y1u7oA/) [力扣](https://leetcode-cn.com/problems/linked-list-cycle-ii/)
+    - 判断链表是否有环、找出有环链表中环的第一个节点 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/06.w02-[141-142]-cycle.js) + [B 站](https://www.bilibili.com/video/BV1kf4y1u7oA/) [力扣](https://leetcode-cn.com/problems/linked-list-cycle-ii/)
 
   - 2021-11-02 刷算法题
 
@@ -38,7 +38,7 @@
 
   - 2021-11-05 刷算法题
 
-    - 反转链表 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/11.w02-[024]-reverseList.js) 视频 [地址](https://www.bilibili.com/video/BV1Lg411K7py/) [力扣](https://leetcode-cn.com/problems/UHnkqh)
+    - 反转链表 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/11.w02-[024]-reverseList.js) [B 站](https://www.bilibili.com/video/BV1Lg411K7py/) [力扣](https://leetcode-cn.com/problems/UHnkqh)
     - 链表相交 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/12.w02-[02.07]-get-intersection-node.js) [力扣](https://leetcode-cn.com/problems/intersection-of-two-linked-lists-lcci)
 
   - 2021-11-06 刷算法题
@@ -62,11 +62,11 @@
 
   - 2021-11-09 刷算法题
 
-    - K 个一组翻转链表 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/23.w03-[25]-reverse-kgroup.js) + [视频](https://www.bilibili.com/video/BV17q4y1372g/) [力扣](https://leetcode-cn.com/problems/reverse-nodes-in-k-group/)
+    - K 个一组翻转链表 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/23.w03-[25]-reverse-kgroup.js) + [B 站](https://www.bilibili.com/video/BV17q4y1372g/) [力扣](https://leetcode-cn.com/problems/reverse-nodes-in-k-group/)
     - 剑指 Offer II 004. 只出现一次的数字 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/24.w03-[004]-single-number.js) [力扣](https://leetcode-cn.com/problems/WGki4K/)
-    - 判断链表是否有环 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/06.w02-[141-142]-cycle.js) + 视频 [地址](https://www.bilibili.com/video/BV1kf4y1u7oA/) [力扣](https://leetcode-cn.com/problems/linked-list-cycle/)
+    - 判断链表是否有环 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/06.w02-[141-142]-cycle.js) + [B 站](https://www.bilibili.com/video/BV1kf4y1u7oA/) [力扣](https://leetcode-cn.com/problems/linked-list-cycle/)
     - 计数排序 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/05.w02-counting-sort.js)
 
   - 2021-11-10 刷算法题
-    - 两数之和 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/25.w03-[1].two-sum.js)[力扣](https://leetcode-cn.com/problems/two-sum/)
-    - 二分查找 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/26.w03-[704]-search.js)[力扣](https://leetcode-cn.com/problems/binary-search/)
+    - 两数之和 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/25.w03-[1].two-sum.js) [力扣](https://leetcode-cn.com/problems/two-sum/)
+    - 二分查找 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/26.w03-[704]-search.js) [力扣](https://leetcode-cn.com/problems/binary-search/)
