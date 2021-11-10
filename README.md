@@ -62,7 +62,11 @@
 
   - 2021-11-09 刷算法题
 
-    - K 个一组翻转链表 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/23.w03-[25]-reverse-kgroup.js) [力扣](https://leetcode-cn.com/problems/reverse-nodes-in-k-group/)
+    - K 个一组翻转链表 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/23.w03-[25]-reverse-kgroup.js) + [视频](https://www.bilibili.com/video/BV17q4y1372g/) [力扣](https://leetcode-cn.com/problems/reverse-nodes-in-k-group/)
     - 剑指 Offer II 004. 只出现一次的数字 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/24.w03-[004]-single-number.js) [力扣](https://leetcode-cn.com/problems/WGki4K/)
     - 判断链表是否有环 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/06.w02-[141-142]-cycle.js) + 视频 [地址](https://www.bilibili.com/video/BV1kf4y1u7oA/) [力扣](https://leetcode-cn.com/problems/linked-list-cycle/)
     - 计数排序 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/05.w02-counting-sort.js)
+
+  - 2021-11-10 刷算法题
+    - 两数之和 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/25.w03-[1].two-sum.js)[力扣](https://leetcode-cn.com/problems/two-sum/)
+    - 二分查找 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/26.w03-[704]-search.js)[力扣](https://leetcode-cn.com/problems/binary-search/)

@@ -34,6 +34,30 @@ function reverseKGroup(head, k) {
   return newHead
 }
 
+function reverseKGroup2(head, k) {
+  if (!head || k === 1) return head
+
+  let next = null
+  let curr = head
+  let count = 1
+
+  while (count < k) {
+    curr = curr.next
+    if (!curr) return head
+    count++
+  }
+
+  next = curr.next
+  curr.next = null
+
+  reverseList(head)
+  if (next) {
+    head.next = reverseKGroup2(next, k)
+  }
+
+  return curr
+}
+
 function reverseList(head) {
   let prev = next = null
   let curr = head
@@ -48,7 +72,9 @@ function reverseList(head) {
   return prev
 }
 
-console.log(listToArray(reverseKGroup(arrayToList([1, 2, 3, 4, 5]), 2)))
+const arr = [1, 2, 3, 4, 5, 6, 7, 8]
+console.log(arr)
+console.log(listToArray(reverseKGroup2(arrayToList(arr), 3)))
 
 
 function ListNode(val) {
