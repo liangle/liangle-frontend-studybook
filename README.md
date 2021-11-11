@@ -74,3 +74,4 @@
 
   - 2021-11-11 刷算法题
     - 二路归并排序 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/28.w032-[912]-sort-array.js) + [掘金](https://juejin.cn/post/7029296492984664071)
+    - 平方数之和 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/29.w032-[633]-judge-square-sum.js)
