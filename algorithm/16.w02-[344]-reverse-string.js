@@ -3,8 +3,11 @@
  * @param {*} s 
  */
 function reverseString(s) {
-  for (let i = 0, len = s.length; i < Math.floor(len / 2); i++) {
-    [s[i], s[len - 1 - i]] = [s[len - 1 - i], s[i]]
+  let l = 0
+  let r = s.length - 1
+
+  while (l <= r) { //左右调换位置，并且指针同时向中间靠拢
+    [s[l++], s[r--]] = [s[r], s[l]]
   }
 
   return s
