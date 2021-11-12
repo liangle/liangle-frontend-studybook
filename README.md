@@ -73,5 +73,10 @@
     - 二分查找 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/26.w0302-[704]-search.js)
 
   - 2021-11-11 刷算法题
+
     - 二路归并排序 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/28.w032-[912]-sort-array.js) + [掘金](https://juejin.cn/post/7029296492984664071)
     - 平方数之和 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/29.w032-[633]-judge-square-sum.js)
+
+  - 2021-11-12 刷算法题
+    - 最长递增子序列 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/27.w0302-[300]-length-of-lis.js)
+    - 二路归并排序 [视频](https://www.bilibili.com/video/BV1Sg411P7RY/)
