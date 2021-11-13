@@ -82,3 +82,4 @@
 
   - 2021-11-13 刷算法题
     - 快乐数 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/30.w0401-is-happy.js)
+    - 桶排序 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/31.w0401-top-kfrequent.js)
