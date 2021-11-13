@@ -22,4 +22,6 @@ function singleNumber(nums) {
   return map.keys().next().value
 }
 
-console.log(singleNumber([1, 2, 2, 2, 3, 3, 3, 4, 4, 4]))
+// console.log(singleNumber([1, 2, 2, 3, 3, 4, 4]))
+const arr = [1, 2, 1, 2, 3, 4, 4]
+console.log(arr.reduce((pre, curr) => pre ^ curr))

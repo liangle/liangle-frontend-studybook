@@ -56,17 +56,17 @@ function rotateRight(head, k) {
   if (!head || !head.next || k === 0) return head
 
   let curr = head
-  let end
-  let count = 0 //节点数
+  let count = 1 //节点数
 
-  while (curr) { //找到结尾节点
-    if (!curr.next) end = curr
+  while (curr.next) { //找到结尾节点
     curr = curr.next
     count++
   }
 
-  end.next = head //结尾指向链表头，再从count - k 位断开
+  curr.next = head //结尾指向链表头，再从count - k 位断开
   let i = count - (k % count) - 1 //从头走count - (k % count) - 1步
+
+  if (i === 0) return head
 
   curr = head
   while (i > 0) {
