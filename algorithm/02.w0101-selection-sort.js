@@ -14,7 +14,7 @@ function selectionSort(nums) {
 
     minIndex = i
     for (let j = i + 1; j < len; j++) {
-      if (nums[minIndex] > nums[j]) {
+      if (nums[j] < nums[minIndex]) {
         minIndex = j
       }
     }

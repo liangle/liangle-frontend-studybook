@@ -76,5 +76,9 @@
     - 平方数之和 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/29.w032-judge-square-sum.js)
 
   - 2021-11-12 刷算法题
+
     - 最长递增子序列 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/27.w0302-length-of-lis.js)
     - 二路归并排序 [视频](https://www.bilibili.com/video/BV1Sg411P7RY/)
+
+  - 2021-11-13 刷算法题
+    - 快乐数 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/30.w0401-is-happy.js)
