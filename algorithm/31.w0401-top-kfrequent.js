@@ -1,59 +1,26 @@
 function topKFrequent(nums, k) {
-  //取最大元素和最小元素，算出每个桶的区间
-  const min = Math.min(...nums)
-  const max = Math.max(...nums)
-  const offset = (max - min + 1) / 10 //10个桶
-  const bucket = []
-  let bucketIndex = 0
-
-  for (let i = 0; i < 10; i++) {
-    bucket.push(new Array())
-  }
-
+  //对数字进行统计
+  const map = new Map()
   nums.forEach(num => {
-    bucketIndex = Math.floor((num - min) / offset)
-    bucket[bucketIndex].push(num)
+    map.set(num, map.has(num) ? map.get(num) + 1 : 1)
   })
 
-  let res = []
-  bucket.forEach(arr => {
-    if (arr.length > 0) {
-      res = res.concat(mergeSort(arr, 0, arr.length - 1))
+  const arr = []
+  map.forEach((value, key) => {
+    if (!arr[value]) arr[value] = new Array()
+    arr[value].push(key)
+  })
+
+  const res = []
+  let count = 0
+  for (let i = arr.length - 1; i > 0 && count < k; i--) {
+    if (arr[i]) {
+      count += arr[i].length
+      res.push(...arr[i])
     }
-  })
-
-  return res
-}
-
-function mergeSort(nums, l, r) {
-  if (l === r) return [nums[l]]
-
-  const mid = (l + r) >> 1
-  const left = mergeSort(nums, l, mid)
-  const right = mergeSort(nums, mid + 1, r)
-
-  return merge(left, right)
-}
-
-function merge(left, right) {
-  let i = j = 0
-  let llen = left.length
-  let rlen = right.length
-  let res = []
-
-  while (i < llen && j <= rlen) {
-    res.push(left[i] <= right[j] ? left[i++] : right[j++])
-  }
-
-  while (i < llen) {
-    res.push(left[i++])
-  }
-
-  while (j < rlen) {
-    res.push(right[j++])
   }
 
   return res
 }
 
-console.log(topKFrequent([1, 2, 3, 4, 5, 6, 7, 8, 4, 5, 5, 7, 2, 2], 2))
+console.log(topKFrequent([1, 1, 1, 2, 2, 3], 2))
