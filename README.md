@@ -81,5 +81,9 @@
     - 二路归并排序 [视频](https://www.bilibili.com/video/BV1Sg411P7RY/)
 
   - 2021-11-13 刷算法题
+
     - 快乐数 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/30.w0401-is-happy.js)
     - 桶排序 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/31.w0401-top-kfrequent.js)
+
+  - 2021-11-14 刷算法题
+    - 两个字符串包含的字符是否完全相同 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/32.w0401-is-anagram.js)
