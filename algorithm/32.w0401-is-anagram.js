@@ -15,8 +15,8 @@ function isAnagram(s, t) {
 
   if (sMap.size !== tMap.size) return false
 
-  for (let [key] of sMap) {
-    if (!tMap.has(key)) return false
+  for (let [key, value] of sMap) {
+    if (tMap.get(key) !== value) return false
   }
 
   return true

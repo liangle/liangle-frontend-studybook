@@ -86,4 +86,9 @@
     - 桶排序 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/31.w0401-top-kfrequent.js)
 
   - 2021-11-14 刷算法题
+
     - 两个字符串包含的字符是否完全相同 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/32.w0401-is-anagram.js)
+
+  - 2021-11-15 刷算法题
+    - 二叉树的直径 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/33.w0401-diameter-of-binary-tree.js)
+    - 最长回文串 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/34.w0401-longest-palindrome.js)

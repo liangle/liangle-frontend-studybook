@@ -19,6 +19,8 @@ function partition(n, map) {
     num = Math.floor(num / 10)
   }
 
+  map.set(n, 1)
+
   return partition(sum, map)
 }
 
