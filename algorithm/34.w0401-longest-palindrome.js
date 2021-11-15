@@ -13,15 +13,9 @@ function longestPalindrome(s) {
   }
 
   let res = 0
-  let count = 0
 
   for ([key, value] of map) {
-    if (value % 2 === 0 || count === 0) {
-      res += value
-    } else {
-      res += value - 1
-      count++
-    }
+    res += value % 2 === 0 || res % 2 === 0 ? value : value - 1
   }
 
   return res
