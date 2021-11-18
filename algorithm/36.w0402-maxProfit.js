@@ -19,3 +19,5 @@ function maxProfit(prices) {
 
   return maxProfit
 }
+
+console.log(maxProfit([2, 5, 1, 2, 2]))

@@ -95,5 +95,9 @@
     - 最长回文串 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/34.w0401-longest-palindrome.js)
 
   - 2021-11-17
-    - 最长公共子序列[代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/35.w0402-longestCommonSubsequence.js)
-    - 买卖股票的最佳时机[代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/36.w0402-maxProfit.js)
+
+    - 最长公共子序列 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/35.w0402-longestCommonSubsequence.js)
+    - 买卖股票的最佳时机 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/36.w0402-maxProfit.js)
+
+  - 2021-11-17
+    - 使用最小花费爬楼梯 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/37.w0402-minCostClimbingStairs.js)
