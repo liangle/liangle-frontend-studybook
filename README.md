@@ -90,5 +90,10 @@
     - 两个字符串包含的字符是否完全相同 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/32.w0401-is-anagram.js)
 
   - 2021-11-15 刷算法题
+
     - 二叉树的直径 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/33.w0401-diameter-of-binary-tree.js)
     - 最长回文串 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/34.w0401-longest-palindrome.js)
+
+  - 2021-11-17
+    - 最长公共子序列[代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/35.w0402-longestCommonSubsequence.js)
+    - 买卖股票的最佳时机[代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/36.w0402-maxProfit.js)
