@@ -101,4 +101,4 @@
 
   - 2021-11-17
     - 使用最小花费爬楼梯 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/37.w0402-minCostClimbingStairs.js)
-      回文子字符串个数 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/38.w0403-countSubstrings.js)
+      回文子字符串个数 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/38.w0402-countSubstrings.js)
