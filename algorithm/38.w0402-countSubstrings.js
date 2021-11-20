@@ -3,24 +3,23 @@
  * @param {*} s 
  */
 function countSubstrings(s) {
-  let ans = 0
+  let res = 0
   const len = s.length
-  const dp = new Array(len).fill([])
-  for (let i = 0; i < len; i++) {
-    dp[i] = new Array(len).fill(false)
-  }
+  const dp = new Array(len).fill([]).map(() => new Array(len).fill(0))
 
   for (let i = 0; i < len; i++) {
     for (let j = 0; j <= i; j++) {
-      if (s[i] === s[j] && (i - j < 2 || dp[j + 1][i - 1])) {
-        dp[j][i] = true
-        ans++
+      if (s[i] === s[j] && (i - j <= 1 || dp[i - 1][j + 1])) {
+        dp[i][j] = true
+        res++
       }
     }
   }
 
-  return ans
+  return res
 }
 
-// console.log(countSubstrings('aaa'))
-console.log(countSubstrings('fdsklf'))
+console.log(countSubstrings('aaa')) //6
+console.log(countSubstrings('fdsklf')) //6
+console.log(countSubstrings('akfaf')) //6
+console.log(countSubstrings('level')) //6
