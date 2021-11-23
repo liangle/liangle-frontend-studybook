@@ -109,6 +109,11 @@
     - 回文子串 [ppt](https://github.com/liangle/liangle-frontend-studybook/tree/master/小白学算法系列.pptx)
 
   - 2021-11-20
+
     - 链表中倒数第 k 个节点 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/39.w0403-getKthFromEnd.js)
     - 交换链表中的节点 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/40.w0403-swapNodes.js)
     - 两两交换链表中的节点 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/41.w0403-swapPairs.js)
+
+  - 2021-11-21
+    - 合并 K 个升序链表 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/42.w0403-mergeKLists.js)
+    - 复制带随机指针的链表 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/43.w0403-copyRandomList.js)

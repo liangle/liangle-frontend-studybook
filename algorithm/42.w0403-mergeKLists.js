@@ -1,3 +1,8 @@
+/**
+ * [23. 合并K个升序链表](https://leetcode-cn.com/problems/merge-k-sorted-lists/)
+ * @param {*} lists 
+ * @returns 
+ */
 function mergeKLists(lists) {
   // return lists.reduce((prev, curr) => mergeTwoList(prev, curr))
   const len = lists.length
