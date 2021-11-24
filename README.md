@@ -124,6 +124,11 @@
     - 交换链表中的节点 [视频](https://www.bilibili.com/video/BV1M44y1Y7aA/)
 
   - 2021-11-23
+
+    - 验证二叉树的前序序列化 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/44.w0501-isValidSerialization.js) [视频](https://www.bilibili.com/video/BV1wg411K7qT/)
     - 二叉树的后序遍历 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/45.w0501-postorderTraversal.js)
-    - 验证二叉树的前序序列化 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/45.w0501-postorderTraversal.js) [视频](https://www.bilibili.com/video/BV1wg411K7qT/)
-    - 基本计算器 II [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/44.w0501-isValidSerialization.js)
+    - 基本计算器 II [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/46.w0501-calculate.js)
+
+  - 2021-11-24
+    - 函数的独占时间 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/47.w0501-exclusiveTime.js) [掘金](https://juejin.cn/post/7034132382697390094)
+    - 表现良好的最长时间段 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/48.w0501-longestWPI.js)
