@@ -130,5 +130,10 @@
     - 基本计算器 II [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/46.w0501-calculate.js)
 
   - 2021-11-24
+
     - 函数的独占时间 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/47.w0501-exclusiveTime.js) [掘金](https://juejin.cn/post/7034132382697390094)
     - 表现良好的最长时间段 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/48.w0501-longestWPI.js)
+
+  - 2021-11-25
+    - 反转链表 II [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/49.w0502-reverseBetween.js) [掘金](https://juejin.cn/post/7034507763933773861)
+    - 删除链表的倒数第 N 个结点 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/50.w0502-removeNthFromEnd.js) [掘金](https://juejin.cn/post/7034508227731521550)
