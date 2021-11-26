@@ -141,3 +141,4 @@
 
   - 2021-11-26
     - 删除排序链表中的重复元素 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/51.w0502-deleteDuplicates.js) + [掘金](https://juejin.cn/post/7034676096373260295)
+    - 删除排序链表中的重复元素 II [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/51.w0502-deleteDuplicatesII.js) + [掘金](https://juejin.cn/post/7034820949757132837) + [视频](https://www.bilibili.com/video/BV1th411s7es/)
