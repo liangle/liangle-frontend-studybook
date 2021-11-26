@@ -140,4 +140,4 @@
     - 删除链表的倒数第 N 个结点 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/50.w0502-removeNthFromEnd.js) + [掘金](https://juejin.cn/post/7034508227731521550)
 
   - 2021-11-26
-    - 删除排序链表中的重复元素 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/51.w0502-deleteDuplicates.js)
+    - 删除排序链表中的重复元素 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/51.w0502-deleteDuplicates.js) + [掘金](https://juejin.cn/post/7034676096373260295)
