@@ -13,14 +13,14 @@ function validString(str) {
     ['}', '{']
   ])
 
-  for (let char of str) {
-    if (map.has(char)) { //右括号
-      if (!stack.length || stack[stack.length - 1] !== map.get(char)) { //右括号和栈顶不匹配
-        return false
-      }
+  for (let c of str) {
+    if (map.has(c)) { //右括号
+      //右括号和栈顶不匹配
+      if (!stack.length || stack[stack.length - 1] !== map.get(c)) return false
+
       stack.pop()
     } else { //左括号
-      stack.push(char)
+      stack.push(c)
     }
   }
 
