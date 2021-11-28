@@ -38,7 +38,8 @@ MyCircularQueue.prototype.deQueue = function () {
  * @return {number}
  */
 MyCircularQueue.prototype.Front = function () {
-  return this.queue.pop()
+  if (this.isEmpty()) return -1
+  return this.queue[this.headIndex]
 };
 
 /**
