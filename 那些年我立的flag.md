@@ -2,7 +2,7 @@
 
 ### 昨天完成
 
-- 亲密字符串 [掘金]()
+- 亲密字符串 [掘金](https://juejin.cn/post/7036309088011026439)
 - 面试题 第 k 个数
 - 荣耀战报个人成绩 MVP，梳理了需求[ProcessOn](https://www.processon.com/mindmap/61a6209c1efad425fd784f43，整理了部分代码
 

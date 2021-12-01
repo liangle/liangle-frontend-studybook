@@ -160,5 +160,5 @@
     - 算法学习月总结 [掘金](https://juejin.cn/post/7036026381871874056)
 
   - 2021-1130
-    - 亲密字符串 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/59.w0601-buddyStrings.js) + [掘金]()
+    - 亲密字符串 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/59.w0601-buddyStrings.js) + [掘金](https://juejin.cn/post/7036309088011026439)
     - 面试题 第 k 个数 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/60.w0601-getKthMagicNumber.js)
