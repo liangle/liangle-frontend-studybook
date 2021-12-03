@@ -7,9 +7,11 @@
 
 ### 今天想做的事
 
-- 煎饼排序 https://leetcode-cn.com/problems/pancake-sorting
-- 任务调度器 https://leetcode-cn.com/problems/task-scheduler
-- 化栈为队 https://leetcode-cn.com/problems/implement-queue-using-stacks-lcci
+- 煎饼排序
+- 任务调度器
+- 化栈为队
+- 较含退格的字符串
+- 除最外层的括号
 
 ## 12-01
 
