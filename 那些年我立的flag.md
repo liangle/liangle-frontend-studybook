@@ -2,6 +2,19 @@
 
 ### 昨天完成
 
+- 实现荣耀战报排行榜 B 站部分
+- 柠檬水找零 [掘金](https://juejin.cn/post/7037059055365390372)
+
+### 今天想做的事
+
+- 煎饼排序 https://leetcode-cn.com/problems/pancake-sorting
+- 任务调度器 https://leetcode-cn.com/problems/task-scheduler
+- 化栈为队 https://leetcode-cn.com/problems/implement-queue-using-stacks-lcci
+
+## 12-01
+
+### 昨天完成
+
 - 荣耀战报个人成绩 MVP，整理爬网代码
 
 ### 今天想做的事
