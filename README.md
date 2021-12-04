@@ -159,6 +159,23 @@
     - 最近的请求次数 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/58.w0503-RecentCounter.js) + [掘金](https://juejin.cn/post/7035866904799477774)
     - 算法学习月总结 [掘金](https://juejin.cn/post/7036026381871874056)
 
-  - 2021-1130
+  - 2021-11-30
+
     - 亲密字符串 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/59.w0601-buddyStrings.js) + [掘金](https://juejin.cn/post/7036309088011026439)
     - 面试题 第 k 个数 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/60.w0601-getKthMagicNumber.js)
+
+  - 2021-12-01
+
+    - 通过 G2 实现荣耀战报系统 B 站部分排行榜
+    - 柠檬水找零 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/61.w0601-lemonadeChange.js) + [掘金](https://juejin.cn/post/7037059055365390372)
+
+  - 2021-12-02
+
+    - 任务调度器 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/62.w0601-leastInterval.js)
+    - 煎饼排序 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/63.w0601-pancakeSort.js)
+    - 化栈为队 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/66.w0602-MyQueue.js) + [掘金](https://juejin.cn/post/7037426318434107405)
+    - 较含退格的字符串 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/64.w0602-backspaceCompare.js) + [掘金](https://juejin.cn/post/7037424940412321828)
+    - 删除最外层的括号 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/67.w0602-removeOuterParentheses.js) + [掘金](https://juejin.cn/post/7037472160180355085)
+
+  - 2021-12-03
+    - 棒球比赛 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/68.w0602-calPoints.js) + [掘金](https://juejin.cn/post/7037640849223581709)
