@@ -190,3 +190,4 @@
     - 重排链表 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/70.w0603-reorderList.js)
     - 两数相加 II [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/71.w0603-addTwoNumbers.js)
     - 剑指 Offer ！复杂链表的复制 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/72.w0603-copyRandomList.js)
+    - 移除无效的括号 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/73.w0603-minRemoveToMakeValid.js)
