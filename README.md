@@ -166,7 +166,7 @@
 
   - 2021-12-01
 
-    - 通过 G2 实现荣耀战报系统 B 站部分排行榜
+    - 通过 G2 实现荣耀战报系统 B 站部分排行榜 [代码](https://github.com/liangle/Daydayup/blob/main/glory-report/prototype/liangle/index.html)
     - 柠檬水找零 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/61.w0601-lemonadeChange.js) + [掘金](https://juejin.cn/post/7037059055365390372)
 
   - 2021-12-02
