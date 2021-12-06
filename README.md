@@ -178,4 +178,15 @@
     - 删除最外层的括号 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/67.w0602-removeOuterParentheses.js) + [掘金](https://juejin.cn/post/7037472160180355085)
 
   - 2021-12-03
+
     - 棒球比赛 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/68.w0602-calPoints.js) + [掘金](https://juejin.cn/post/7037640849223581709)
+
+  - 2021-12-05
+
+    - 年终总结 [掘金](https://juejin.cn/post/7038539263251578911)
+
+  - 2021-12-06
+    - 删除中间节点 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/69.w0603-deleteNode.js)
+    - 重排链表 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/70.w0603-reorderList.js)
+    - 两数相加 II [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/71.w0603-addTwoNumbers.js)
+    - 剑指 Offer ！复杂链表的复制 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/72.w0603-copyRandomList.js)
