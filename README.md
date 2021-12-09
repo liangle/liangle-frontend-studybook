@@ -194,4 +194,12 @@
     - 移除无效的括号 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/73.w0603-minRemoveToMakeValid.js)
 
   - 2021-12-07
-    - 面试题 02.08. 环路检测 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/74.w0701-detectCycle.js)
+
+    - 面试题 02.08. 环路检测 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/74.w0701-detectCycle.js) + [掘金](https://juejin.cn/post/7038957621172404261)
+    - 剑指 Offer： 删除链表的节点 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/76.w0701-deleteNode.js) + [掘金](https://juejin.cn/post/7038957182515167245)
+    - 设计链表 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/75.w0701-MyLinkedList.js)
+
+  - 2021-12-08
+    - 分隔链表 [掘金](https://juejin.cn/post/7039531663302492173)
+    - 面试题：分割链表
+    - 看掘金小册怎么写 [ProcessOn](https://www.processon.com/view/link/61b1a89f1efad44ee6f673be)
