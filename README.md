@@ -217,5 +217,20 @@
     - 从前序与中序遍历序列构造二叉树 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/83.w0702-buildTree.js)
 
   - 2021-12-11
+
     - 剑指 Offer 54. 二叉搜索树的第 k 大节点 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/84.w0703-kthLargest.js) + [掘金](https://juejin.cn/post/7040419615566266398/)
     - 剑指 Offer 26. 树的子结构 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/85.w0703-isSubStructure.js)
+
+  - 2021-12-12
+
+    - 二叉树的前序遍历 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/86.w0703-preorderTraversal.js)
+    - 二叉树最大宽度 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/87.w0703-widthOfBinaryTree.js)
+
+  - 2021-12-13
+
+    - 监控二叉树 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/88.w0703-minCameraCover.js)
+
+  - 2021-12-14
+    - 叉树的前序遍历 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/89.w0801-preorder.js) + [掘金](https://juejin.cn/post/7041545081261654053)
+    - 翻转二叉树 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/90.w0801-invertTree.js) + [掘金](https://juejin.cn/post/7041544722842091551) + [视频](https://www.bilibili.com/video/BV1Mb4y1q7C4/)
+    - 从上到下打印二叉树 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/91.w0801-levelOrder.js) + [掘金](https://juejin.cn/post/7041544766579802119) + [视频](https://www.bilibili.com/video/BV1m34y1X7gb/)
