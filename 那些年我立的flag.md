@@ -2,6 +2,19 @@
 
 ### 昨天完成
 
+- 叉树的前序遍历 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/89.w0801-preorder.js) + [掘金](https://juejin.cn/post/7041545081261654053)
+- 翻转二叉树 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/90.w0801-invertTree.js) + [掘金](https://juejin.cn/post/7041544722842091551) + [视频](https://www.bilibili.com/video/BV1Mb4y1q7C4/)
+- 从上到下打印二叉树 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/91.w0801-levelOrder.js) + [掘金](https://juejin.cn/post/7041544766579802119) + [视频](https://www.bilibili.com/video/BV1m34y1X7gb/)
+
+### 今天想做的事
+
+- 二叉树的层序遍历 II
+- 二叉树的锯齿形层序遍历
+
+## 12-13
+
+### 昨天完成
+
 - 监控二叉树
 - 看 2-1 二叉树（Binary-Tree）与经典问题视频
 
