@@ -1,4 +1,29 @@
-## 12-13
+## 12-17
+
+### 昨天完成
+
+- 剑指 Offer 40. 最小的 k 个数 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/94.w0802-getLeastNumbers.js) + [掘金](https://juejin.cn/post/7042224339801866271) + [视频](https://www.bilibili.com/video/BV1vL4y1J7Rh/)
+- 荣耀战报系统阶段性成果演示 [视频](https://www.bilibili.com/video/BV1iM4y1c7JT/)
+
+### 今天想做的事
+
+- 平衡二叉树
+- 最后一块石头的重量
+- 数据流中的第 K 大元素
+
+## 12-16
+
+### 昨天完成
+
+- 二叉树的层序遍历 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/92.w0801-levelOrderBottom.js) + [掘金](https://juejin.cn/post/7041865634338045965) + [视频](https://www.bilibili.com/video/BV18M4y1A76W/)
+- 二叉树的锯齿形层序遍历 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/93.w0801-zigzagLevelOrder.js) + [掘金](https://juejin.cn/post/7041881553827266596) + [视频](https://www.bilibili.com/video/BV1k44y1a7x8/)
+
+### 今天想做的事
+
+- Offer 40. 最小的 k 个数 代码 + 掘金 + 视频
+- 荣耀战报系统爬掘金数据 代码 + 视频
+
+## 12-15
 
 ### 昨天完成
 

@@ -6,6 +6,16 @@
 
 - 01.算法学习
 
+  - 2021-12-16
+
+    - 剑指 Offer 40. 最小的 k 个数 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/94.w0802-getLeastNumbers.js) + [掘金](https://juejin.cn/post/7042224339801866271) + [视频](https://www.bilibili.com/video/BV1vL4y1J7Rh/)
+    - 荣耀战报系统阶段性成果演示 [视频](https://www.bilibili.com/video/BV1iM4y1c7JT/)
+
+  - 2021-12-15
+
+    - 二叉树的层序遍历 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/92.w0801-levelOrderBottom.js) + [掘金](https://juejin.cn/post/7041865634338045965) + [视频](https://www.bilibili.com/video/BV18M4y1A76W/)
+    - 二叉树的锯齿形层序遍历 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/93.w0801-zigzagLevelOrder.js) + [掘金](https://juejin.cn/post/7041881553827266596) + [视频](https://www.bilibili.com/video/BV1k44y1a7x8/)
+
   - 2021-12-14
 
     - 叉树的前序遍历 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/89.w0801-preorder.js) + [掘金](https://juejin.cn/post/7041545081261654053)
