@@ -6,6 +6,14 @@
 
 - 01.算法学习
 
+  - 2021-12-17
+
+    - 平衡二叉树 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/95.w0802-isBalanced.js) + [掘金](https://juejin.cn/post/7042585058959425544) + [视频](https://www.bilibili.com/video/BV1LQ4y1Y7jK/)
+    - 最后一块石头的重量 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/97.w0802-lastStoneWeight.js) + [掘金](https://juejin.cn/post/7042615567097790494) + [视频](https://www.bilibili.com/video/BV1bm4y1X7mV/)
+    - 数据流中的第 K 大元素 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/96.w0802-KthLargest.js) + [掘金](https://juejin.cn/post/7042584875836112909) + [视频](https://www.bilibili.com/video/BV1CM4y1c7Mw/)
+
+  - 2021-12-15
+
   - 2021-12-16
 
     - 剑指 Offer 40. 最小的 k 个数 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/94.w0802-getLeastNumbers.js) + [掘金](https://juejin.cn/post/7042224339801866271) + [视频](https://www.bilibili.com/video/BV1vL4y1J7Rh/)
