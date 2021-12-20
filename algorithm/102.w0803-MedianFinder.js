@@ -31,5 +31,5 @@ MedianFinder.prototype.findMedian = function () {
   if (this.minQueue.size() > this.maxQueue.size()) {
     return this.minQueue.front()['priority']
   }
-  return (this.minQueue.back()['priority'] + this.maxQueue.front()['priority']) / 2
+  return (this.minQueue.front()['priority'] + this.maxQueue.front()['priority']) / 2
 };
