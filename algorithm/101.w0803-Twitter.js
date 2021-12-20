@@ -24,18 +24,16 @@ Twitter.prototype.postTweet = function (userId, tweetId) {
  * @return {number[]}
  */
 Twitter.prototype.getNewsFeed = function (userId) {
-  const currUserFollows = this.follows.get(userId)
-  const users = []
+  const users = [userId]
 
-  if (currUserFollows) {
+  if (this.follows.has(userId)) {
+    const currUserFollows = this.follows.get(userId)
     for ([key, value] of currUserFollows) {
-      if (value) users.push(key)
+      users.push(key)
     }
   }
-  users.push(userId)
 
   const result = this.posts.filter(post => users.includes(post.userId))
-  console.log(result)
   result.sort((a, b) => b.sort - a.sort)
   return result.slice(0, 10).map(post => post.tweetId)
 };
@@ -51,7 +49,7 @@ Twitter.prototype.follow = function (followerId, followeeId) {
   }
 
   const currUserFollows = this.follows.get(followerId)
-  currUserFollows.set(followeeId, true)
+  currUserFollows.set(followeeId, followeeId)
 };
 
 /** 
@@ -60,12 +58,10 @@ Twitter.prototype.follow = function (followerId, followeeId) {
  * @return {void}
  */
 Twitter.prototype.unfollow = function (followerId, followeeId) {
-  if (!this.follows.has(followerId)) {
-    this.follows.set(followerId, new Map())
+  if (this.follows.has(followerId)) {
+    const currUserFollows = this.follows.get(followerId)
+    currUserFollows.delete(followeeId)
   }
-
-  const currUserFollows = this.follows.get(followerId)
-  currUserFollows.set(followeeId, false)
 };
 
 let twitter = new Twitter()
