@@ -12,15 +12,14 @@ var frequencySort = function (s) {
     maxQueue.enqueue(key, value)
   }
 
-  const ans = []
+  let ans = ''
   while (!maxQueue.isEmpty()) {
     let {
       element,
       priority
     } = maxQueue.dequeue()
-    while (priority--) {
-      ans.push(element)
-    }
+    ans += new Array(priority).fill(element).join('')
   }
-  return ans.join('')
+  
+  return ans
 };

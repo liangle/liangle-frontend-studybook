@@ -19,10 +19,5 @@ var topKFrequent = function (nums, k) {
     }
   }
 
-  const ans = []
-  while (!minQueue.isEmpty()) {
-    ans.unshift(minQueue.dequeue()['element'])
-  }
-
-  return ans
+  return minQueue.toArray().map(item => item.element)
 };

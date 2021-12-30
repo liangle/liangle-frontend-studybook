@@ -3,6 +3,7 @@
  */
 var kClosest = function (points, k) {
   const maxQueue = new MaxPriorityQueue()
+  
   points.forEach(point => {
     const [a, b] = point
     const distance = Math.sqrt(a * a + b * b)
@@ -17,9 +18,5 @@ var kClosest = function (points, k) {
     }
   })
 
-  const ans = []
-  while (!maxQueue.isEmpty()) {
-    ans.push(maxQueue.dequeue()['element'])
-  }
-  return ans
+  return maxQueue.toArray().map(item => item.element)
 };
