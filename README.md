@@ -6,10 +6,16 @@
 
 - 01.算法学习
 
+  - 2021-12-29
+
+    - 二叉树中的最大路径和 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/118.w0903-maxPathSum.js) + [掘金](https://juejin.cn/post/7047014465614643208) + [视频](https://www.bilibili.com/video/BV18q4y1m77m/)
+    - 最接近原点的 K 个点 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/117.w0903-kClosest.js) + [掘金](https://juejin.cn/post/7047044697625198623) + [视频](https://www.bilibili.com/video/BV1iL4y1E7wo/)
+
   - 2021-12-28
 
     - 前 K 个高频元素 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/115.w0903-topKFrequent.js)
     - 根据字符出现频率排序 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/116.w0903-frequencySort.js)
+    - 增加 973. 最接近原点的 K 个点 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/117.w0903-kClosest.js)
 
   - 2021-12-27
 
