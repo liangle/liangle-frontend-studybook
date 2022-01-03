@@ -6,6 +6,18 @@
 
 - 01.算法学习
 
+  - 2022-01-03
+
+    - 等式方程的可满足性 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/121.w1001-equationsPossiable.js)
+
+  - 2022-01-02
+
+    - 省份数量 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/120.w1001-findCircleNum.js)
+
+  - 2022-01-01
+
+    - 岛屿数量 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/119.w1001-numIslands.js)
+
   - 2021-12-29
 
     - 二叉树中的最大路径和 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/118.w0903-maxPathSum.js) + [掘金](https://juejin.cn/post/7047014465614643208) + [视频](https://www.bilibili.com/video/BV18q4y1m77m/)
