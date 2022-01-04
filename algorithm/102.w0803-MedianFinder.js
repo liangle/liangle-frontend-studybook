@@ -1,5 +1,5 @@
 /**
- * [355. 设计推特](https://leetcode-cn.com/problems/design-twitter/)
+ * [295. 数据流的中位数](https://leetcode-cn.com/problems/continuous-median-lcci/)
  */
 var MedianFinder = function () {
   this.minQueue = new MaxPriorityQueue() //3,2,1
