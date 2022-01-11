@@ -8,9 +8,12 @@ var accountsMerge = function (accounts) {
 
   for (let i = 0; i < m; i++) {
     const n = accounts[i].length
+
     for (let j = 1; j < n; j++) {
       const email = accounts[i][j]
+
       if (map.has(email)) {
+        //合并有相同邮箱的账户
         uf.union(map.get(email), i)
       } else {
         map.set(email, i)
@@ -21,20 +24,21 @@ var accountsMerge = function (accounts) {
   //合并账户
   let ans = [...accounts]
   for (let i = 0; i < m; i++) {
+    //把父节点不是自己的节点合并到父节点
     if (uf.parent[i] !== i) {
       const rootI = uf.find(i)
-      ans[uf.parent[rootI]].push(...accounts[i].slice(1))
+      ans[rootI].push(...ans[i].slice(1))
       ans[i] = null
     }
   }
 
-  //去掉空项
+  //去掉已合并的空项
   ans = ans.filter(item => item !== null)
 
-  //排序
+  //将邮箱去重后排序
   const len = ans.length
   for (let i = 0; i < len; i++) {
-    ans[i] = [ans[i][0], ...new Set(ans[i].slice(1))].sort()
+    ans[i] = [ans[i][0], ...[...new Set(ans[i].slice(1))].sort()]
   }
 
   return ans
@@ -42,32 +46,15 @@ var accountsMerge = function (accounts) {
 
 class UnionFind {
   constructor(n) {
-    this.parent = new Array(n)
-    this.size = new Array(n).fill(1)
-    for (let i = 0; i < n; i++) {
-      this.parent[i] = i
-    }
+    this.parent = new Array(n).fill(0).map((item, index) => index)
   }
 
   find(i) {
-    if (this.parent[i] !== i) {
-      this.parent[i] = this.find(this.parent[i])
-    }
-
-    return this.parent[i]
+    return this.parent[i] = this.parent[i] !== i ? i : this.find(this.parent[i])
   }
 
   union(p, q) {
-    const rootP = this.find(p)
-    const rootQ = this.find(q)
-
-    if (this.size[rootP] >= this.size[rootQ]) {
-      this.parent[rootP] = rootQ
-      this.size[rootQ] += this.size[rootP]
-    } else {
-      this.parent[rootQ] = rootP
-      this.size[rootP] += this.size[rootQ]
-    }
+    this.parent[this.find(p)] = this.find(q)
   }
 }
 

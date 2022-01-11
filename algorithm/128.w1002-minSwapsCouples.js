@@ -6,21 +6,17 @@ var minSwapsCouples = function (row) {
   const tot = n / 2
   const uf = new UnionFind(tot)
 
+  //把相邻座位上的两个情侣编号合并
+  //情侣编号 = row[i] / 2
   for (let i = 0; i < n; i += 2) {
-    const l = Math.floor(row[i] / 2)
-    const r = Math.floor(row[i + 1] / 2)
-    uf.union(l, r)
-  }
-
-  const map = new Map()
-  for (let i = 0; i < tot; i++) {
-    const rootI = uf.find(i)
-    map.set(rootI, map.has(rootI) ? map.get(rootI) + 1 : 1)
+    uf.union(Math.floor(row[i] / 2), Math.floor(row[i + 1] / 2))
   }
 
   let ans = 0
-  for ([key, value] of map) {
-    ans += value - 1
+
+  //统计并查集中父节点不是自己的节点个数，就是需要交换的次数
+  for (let i = 0; i < tot; i++) {
+    if (uf.find(i) !== i) ans++
   }
 
   return ans
@@ -28,28 +24,15 @@ var minSwapsCouples = function (row) {
 
 class UnionFind {
   constructor(n) {
-    this.parent = new Array(n).fill(0).map((element, index) => index)
-    this.size = new Array(n).fill(1)
+    this.parent = new Array(n).fill(0).map((item, index) => index)
   }
 
   find(i) {
-    if (this.parent[i] !== i) {
-      this.parent[i] = this.find(this.parent[i])
-    }
-    return this.parent[i]
+    return this.parent[i] = this.parent[i] !== i ? i : this.find(this.parent[i])
   }
 
   union(p, q) {
-    const rootP = this.find(p)
-    const rootQ = this.find(q)
-
-    if (this.size[rootP] >= this.size[rootQ]) {
-      this.parent[rootQ] = rootP
-      this.size[rootP] += this.size[rootQ]
-    } else {
-      this.parent[rootP] = rootQ
-      this.size[rootQ] += this.size[rootP]
-    }
+    this.parent[this.find(p)] = this.find(q)
   }
 }
 
