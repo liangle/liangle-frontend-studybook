@@ -6,6 +6,26 @@
 
 - 01.算法学习
 
+  - 2022-01-16
+
+    - 滑动窗口最大值 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/130.w1003-maxSlidingWindow.js) + [掘金](https://juejin.cn/post/7052157238567239717) + [视频](https://www.bilibili.com/video/BV1tT4y117kj/)
+
+  - 2022-01-16
+
+    - 情侣牵手 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/128.w1002-minSwapsCouples.js) + [掘金](https://juejin.cn/post/7051048212391526408) + [视频](https://www.bilibili.com/video/BV1E34y1B7Ac/)
+
+  - 2022-01-08
+
+    - 账户合并 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/128.w1002-minSwapsCouples.js) + [掘金](https://juejin.cn/post/7050118377041297422) + [视频](https://www.bilibili.com/video/BV13L4y1b7kF/)
+
+  - 2022-01-05
+
+    - 最长连续序列 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/124.w1002-longestConsecutive.js)
+
+  - 2022-01-04
+
+    - 移除最多的同行或同列石头 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/125.w1002-removeStones.js)
+
   - 2022-01-03
 
     - 等式方程的可满足性 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/121.w1001-equationsPossiable.js)
