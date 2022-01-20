@@ -6,6 +6,10 @@
 
 - 01.算法学习
 
+  - 2022-01-19
+
+    - 盛最多水的容器 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/132.w1003-maxArea.js) + [掘金](https://juejin.cn/post/7054954612800880653)
+
   - 2022-01-17
 
     - 字符串解码 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/133.w1003-decodeString.js) + [掘金](https://juejin.cn/post/7054183932686204942)
