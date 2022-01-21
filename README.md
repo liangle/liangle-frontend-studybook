@@ -6,6 +6,10 @@
 
 - 01.算法学习
 
+  - 2022-01-20
+
+    - 冗余连接 II [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/129.w1003-findRedundantDirectedConnection.js) + [掘金](https://juejin.cn/post/7055338282699358221)
+
   - 2022-01-19
 
     - 盛最多水的容器 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/132.w1003-maxArea.js) + [掘金](https://juejin.cn/post/7054954612800880653)
