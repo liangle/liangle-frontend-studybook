@@ -26,7 +26,7 @@ var partition = function (nums, start, end) {
     //当前数小于基数时，把当前数和第一个大数交换位置
     if (nums[i] <= nums[base]) {
       [nums[bigStart], nums[i]] = [nums[i], nums[bigStart]]
-      minEnd++
+      bigStart++
     }
   }
 
@@ -34,7 +34,7 @@ var partition = function (nums, start, end) {
   [nums[bigStart], nums[base]] = [nums[base], nums[bigStart]]
 
   //返回当次确定位置的下标
-  return minEnd
+  return bigStart
 }
 
 console.log(sortColors([2, 0, 2, 1, 1, 0]))
