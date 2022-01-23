@@ -6,6 +6,22 @@
 
 - 01.算法学习
 
+  - 2022-01-23
+
+    - 排序数组 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/139.w1102-sortArray.js) + [掘金](https://juejin.cn/editor/drafts/7056328733132587044)
+
+    - 两棵二叉搜索树中的所有元素 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/142.w1102-getAllElements.js) + [掘金](https://juejin.cn/editor/drafts/7056350911668584462)
+
+  - 2022-01-22
+
+    - 字符串解码 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/134.w1101-decodeString.js)
+
+    - 剑指 Offer 21. 调整数组顺序使奇数位于偶数前面 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/135.w1101-exchange.js)
+
+    - 面试题 17.14. 最小 K 个数 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/137.w1101-smallestK.js) + [掘金](https://juejin.cn/post/7055996710010486792)
+
+    - 颜色分类 17.14. 最小 K 个数 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/138.w1101-sortColors.js) + [掘金](https://juejin.cn/post/7055989106337611806)
+
   - 2022-01-20
 
     - 冗余连接 II [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/129.w1003-findRedundantDirectedConnection.js) + [掘金](https://juejin.cn/post/7055338282699358221)
