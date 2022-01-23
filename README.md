@@ -12,6 +12,8 @@
 
     - 两棵二叉搜索树中的所有元素 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/142.w1102-getAllElements.js) + [掘金](https://juejin.cn/editor/drafts/7056350911668584462)
 
+    - 排序链表 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/141.w1102-sortList.js) + [掘金](https://juejin.cn/editor/drafts/7056405583527673892)
+
   - 2022-01-22
 
     - 字符串解码 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/134.w1101-decodeString.js)
