@@ -6,6 +6,10 @@
 
 - 01.算法学习
 
+  - 2022-01-24
+
+    - 面试题 04.08. 首个共同祖先 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/143.w1102-lowestCommonAncestor.js) + [掘金](https://juejin.cn/editor/drafts/7056676838474514463)
+
   - 2022-01-23
 
     - 排序数组 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/139.w1102-sortArray.js) + [掘金](https://juejin.cn/editor/drafts/7056328733132587044)
