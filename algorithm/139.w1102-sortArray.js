@@ -5,21 +5,21 @@ var sortArray = function (nums) {
 	return mergeSort(nums, 0, nums.length - 1)
 };
 
-var mergeSort = function (nums, l, r) {
-	//如果左边下标等于右边下标，说明已经不能再拆分，返回[nums[l]]
-	if (l === r) return [nums[l]]
+var mergeSort = function (nums, left, right) {
+	//如果左边下标等于右边下标，说明已经不能再拆分，返回[nums[left]]
+	if (left === right) return [nums[left]]
 
 	//左边加右边右移1位得到中间位置
-	const mid = (l + r) >> 1
+	const mid = (left + right) >> 1
 
 	//将左边部分进行排序
-	const left = mergeSort(nums, l, mid)
+	const leftArr = mergeSort(nums, left, mid)
 
 	//将右边部分进行排序
-	const right = mergeSort(nums, mid + 1, r)
+	const rightArr = mergeSort(nums, mid + 1, right)
 
 	//最后合并左边和右边排序的结果
-	return merge(left, right)
+	return merge(leftArr, rightArr)
 };
 
 var merge = function (left, right) {
