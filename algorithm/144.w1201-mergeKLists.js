@@ -34,5 +34,6 @@ function mergeTwoList(l1, l2) {
         l2.next = mergeTwoList(l1, l2.next)
     }
 
+    //返回临时节点的下个节点
     return tail.next
 }
