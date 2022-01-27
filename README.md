@@ -6,6 +6,12 @@
 
 - 01.算法学习
 
+  - 2022-01-25
+
+    - 合并 K 个升序链表 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/144.w1201-mergeKLists.js) + [掘金](https://juejin.cn/editor/drafts/7057060619626741790)
+
+    - 子数组和排序后的区间和 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/145.w1201-rangeSum.js) + [掘金](https://juejin.cn/editor/drafts/7057060619626741790)
+
   - 2022-01-24
 
     - 面试题 04.08. 首个共同祖先 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/143.w1102-lowestCommonAncestor.js) + [掘金](https://juejin.cn/editor/drafts/7056676838474514463)
@@ -62,15 +68,15 @@
 
   - 2022-01-03
 
-    - 等式方程的可满足性 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/121.w1001-equationsPossiable.js)
+    - 等式方程的可满足性 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/121.w1001-equationsPossiable.js) + [掘金](https://juejin.cn/post/7057837430925656078) + [视频](https://www.bilibili.com/video/BV1v44y1s7cs/)
 
   - 2022-01-02
 
-    - 省份数量 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/120.w1001-findCircleNum.js)
+    - 省份数量 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/120.w1001-findCircleNum.js) + [掘金](https://juejin.cn/post/7057799720269250568) + [视频](https://www.bilibili.com/video/BV1DS4y1L7ET/)
 
   - 2022-01-01
 
-    - 岛屿数量 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/119.w1001-numIslands.js)
+    - 岛屿数量 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/119.w1001-numIslands.js) + [掘金](https://juejin.cn/post/7039888939787747359) + [视频](https://www.bilibili.com/video/BV1tb4y1E7Nv/)
 
   - 2021-12-29
 
