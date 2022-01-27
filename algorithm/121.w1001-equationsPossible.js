@@ -2,62 +2,62 @@
  * [990. 等式方程的可满足性](https://leetcode-cn.com/problems/satisfiability-of-equality-equations/)
  */
 var equationsPossible = function (equations) {
-  const uf = new UnionFind(26)
-  var getXY = function (equation) {
-    const offset = 97
-    return [equation.charAt(0).charCodeAt() - offset, equation.charAt(3).charCodeAt() - offset]
-  }
+    //等式方程两边是单个字母，所以初始化并查集中的节点数量为 26
+    const u = new UnionSet(26)
 
-  equations.forEach(equation => {
-    if (equation.indexOf('==') !== -1) {
-      const [x, y] = getXY(equation)
-      uf.union(x, y)
+    for (const s of equations) {
+        //把等式的两个变量合并到并查集中
+        //合并时要把字符变量转换成数字
+        if (s[1] === '=') {
+            const a = s[0].charCodeAt() - 97
+            const b = s[3].charCodeAt() - 97
+            u.merge(a, b)
+        }
     }
-  })
 
-  for (const equation of equations) {
-    if (equation.indexOf('!=') !== -1) {
-      const [x, y] = getXY(equation)
-      if (uf.find(x) === uf.find(y)) return false
+    for (const s of equations) {
+        //如果不等式的两个变量又存在于并查集中，说明冲突，返回 false
+        if (s[1] === '!') {
+            const a = s[0].charCodeAt() - 97
+            const b = s[3].charCodeAt() - 97
+            if (u.get(a) === u.get(b)) return false
+        }
     }
-  }
 
-  return true
+    return true
 };
 
-class UnionFind {
-  constructor(n) {
-    this.parent = new Array(n)
-    this.size = new Array(n).fill(1)
-    this.count = n
+class UnionSet {
+    constructor(n) {
+        //初始化父节点数组，每个节点的父节点默认为自己
+        this.pa = new Array(n + 1).fill(0).map((item, index) => index)
 
-    for (let i = 0; i < n; i++) {
-      this.parent[i] = i
-    }
-  }
-
-  find(i) {
-    if (this.parent[i] !== i) {
-      this.parent[i] = this.find(this.parent[i])
-    }
-    return this.parent[i]
-  }
-
-  union(p, q) {
-    const parentP = this.find(p)
-    const parentQ = this.find(q)
-    if (parentP === parentQ) return
-
-    if (this.size[parentP] > this.size[parentQ]) {
-      this.parent[parentQ] = parentP
-      this.size[parentP] += this.size[parentQ]
-    } else {
-      this.parent[parentP] = parentQ
-      this.size[parentQ] += this.size[parentP]
+        //初始化每棵树的节点数
+        this.size = new Array(n + 1).fill(1)
     }
 
-    this.count--
-  }
+    get(x) {
+        //查找x的父节点，并且完成路径优化
+        //优化后，x的父节点指向所在树的根节点
+        return this.pa[x] = this.pa[x] === x ? x : this.get(this.pa[x])
+    }
+
+    merge(a, b) {
+        //找到a的根节点
+        const roota = this.get(a)
+        //找到b的根节点
+        const rootb = this.get(b)
+
+        //把节点总数小的树合并到节点总数多的树里
+        //更新节点总数多的树为 a和b之和
+        if (this.size[roota] < this.size[rootb]) {
+            this.pa[roota] = rootb
+            this.size[roota] += this.size[rootb]
+        } else {
+            this.pa[rootb] = roota
+            this.size[roota] += this.size[rootb]
+        }
+    }
 }
 
 let arr = ["a==b", "b!=a"]
