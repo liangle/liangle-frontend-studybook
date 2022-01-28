@@ -58,11 +58,14 @@ class UnionSet {
         //找到b的根节点
         const rootb = this.get(b)
 
+        //如果a和b在一个集合中则不需要合并
+        if (roota === rootb) return
+
         //把节点总数小的树合并到节点总数多的树里
         //更新节点总数多的树为 a和b之和
         if (this.size[roota] < this.size[rootb]) {
             this.pa[roota] = rootb
-            this.size[roota] += this.size[rootb]
+            this.size[rootb] += this.size[roota]
         } else {
             this.pa[rootb] = roota
             this.size[roota] += this.size[rootb]

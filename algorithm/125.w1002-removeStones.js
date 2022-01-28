@@ -2,54 +2,68 @@
  * 947. 移除最多的同行或同列石头  https://leetcode-cn.com/problems/most-stones-removed-with-same-row-or-column
  */
 var removeStones = function (stones) {
-  const uf = new UnionFind()
+    const len = stones.length
+    //初始化并查集，节点个数为石头个数
+    const u = new UnionSet(len)
+    const ind_x = new Map()
+    const ind_y = new Map()
 
-  stones.forEach(stone => {
-    const [x, y] = stone
-    uf.union(x + 10001, y)
-  })
+    //将石头的下标插入并查集
+    for (let i = 0; i < len; i++) {
+        const [x, y] = stones[i]
 
-  return stones.length - uf.getCount()
+        //判断x方向是否有石头，如果有则和当前节点合并
+        if (ind_x.has(x)) u.merge(i, ind_x.get(x))
+        //判断y方向是否有石头，如果有则和当前节点合并
+        if (ind_y.has(y)) u.merge(i, ind_y.get(y))
+
+        ind_x.set(x, i)
+        ind_y.set(y, i)
+    }
+
+    let cnt = 0
+
+    //统计集合数，父节点为自己的代表一个集合
+    for (let i = 0; i < len; i++) {
+        if (u.get(i) === i) cnt++
+    }
+
+    //可移除节点数 = 石头总数 - 集合数（每个集合剩余1块石头）
+    return len - cnt
 };
 
-class UnionFind {
-  constructor() {
-    this.parent = new Map()
-    this.count = 0
-    this.size = new Map()
-  }
+class UnionSet {
+    constructor(n) {
+        //初始化父节点数组，每个节点的父节点默认为自己
+        this.pa = new Array(n).fill(0).map((item, index) => index)
 
-  find(i) {
-    if (!this.parent.has(i)) {
-      this.parent.set(i, i)
-      this.size.set(i, 1)
-      this.count++
+        //初始化每棵树的节点数
+        this.size = new Array(n).fill(1)
     }
 
-    if (this.parent.get(i) !== i) {
-      this.parent.set(i, this.find(this.parent.get(i)))
+    get(x) {
+        //查找x的父节点，并且完成路径优化
+        //优化后，x的父节点指向所在树的根节点
+        return this.pa[x] = this.pa[x] === x ? x : this.get(this.pa[x])
     }
 
-    return this.parent.get(i)
-  }
+    merge(a, b) {
+        //找到a的根节点
+        const roota = this.get(a)
+        //找到b的根节点
+        const rootb = this.get(b)
 
-  union(x, y) {
-    const rootX = this.find(x)
-    const rootY = this.find(y)
+        //如果a和b在一个集合中则不需要合并
+        if (roota === rootb) return
 
-    if (rootX !== rootY) {
-      if (this.size.get(x) > this.size.get(y)) {
-        this.parent.set(rootY, rootX)
-        this.size.set(rootY, this.size.get(rootY) + this.size.get(rootX))
-      } else {
-        this.parent.set(rootX, rootY)
-        this.size.set(rootX, this.size.get(rootY) + this.size.get(rootX))
-      }
-      this.count--
+        //把节点总数小的树合并到节点总数多的树里
+        //更新节点总数多的树为 a和b之和
+        if (this.size[roota] < this.size[rootb]) {
+            this.pa[roota] = rootb
+            this.size[rootb] += this.size[roota]
+        } else {
+            this.pa[rootb] = roota
+            this.size[roota] += this.size[rootb]
+        }
     }
-  }
-
-  getCount() {
-    return this.count
-  }
 }
