@@ -6,23 +6,29 @@
 
 - 01.算法学习
 
+  - 2022-01-28
+
+    - 冗余连接 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/122.w1001-findRedundantConnection.js) + [掘金](https://juejin.cn/post/7058149907009372174)
+
+    - 连通网络的操作次数 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/123.w1001-makeConnected.js) + [掘金](https://juejin.cn/post/7058183594505666597)
+
   - 2022-01-25
 
-    - 合并 K 个升序链表 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/144.w1201-mergeKLists.js) + [掘金](https://juejin.cn/editor/drafts/7057060619626741790)
+    - 合并 K 个升序链表 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/144.w1201-mergeKLists.js) + [掘金](https://juejin.cn/post/7057060619626741790)
 
-    - 子数组和排序后的区间和 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/145.w1201-rangeSum.js) + [掘金](https://juejin.cn/editor/drafts/7057060619626741790)
+    - 子数组和排序后的区间和 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/145.w1201-rangeSum.js) + [掘金](https://juejin.cn/post/7057060619626741790)
 
   - 2022-01-24
 
-    - 面试题 04.08. 首个共同祖先 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/143.w1102-lowestCommonAncestor.js) + [掘金](https://juejin.cn/editor/drafts/7056676838474514463)
+    - 面试题 04.08. 首个共同祖先 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/143.w1102-lowestCommonAncestor.js) + [掘金](https://juejin.cn/post/7056676838474514463)
 
   - 2022-01-23
 
-    - 排序数组 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/139.w1102-sortArray.js) + [掘金](https://juejin.cn/editor/drafts/7056328733132587044)
+    - 排序数组 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/139.w1102-sortArray.js) + [掘金](https://juejin.cn/post/7056328733132587044)
 
-    - 两棵二叉搜索树中的所有元素 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/142.w1102-getAllElements.js) + [掘金](https://juejin.cn/editor/drafts/7056350911668584462)
+    - 两棵二叉搜索树中的所有元素 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/142.w1102-getAllElements.js) + [掘金](https://juejin.cn/post/7056350911668584462)
 
-    - 排序链表 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/141.w1102-sortList.js) + [掘金](https://juejin.cn/editor/drafts/7056405583527673892)
+    - 排序链表 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/141.w1102-sortList.js) + [掘金](https://juejin.cn/post/7056405583527673892)
 
   - 2022-01-22
 
