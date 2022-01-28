@@ -12,6 +12,8 @@
 
     - 连通网络的操作次数 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/123.w1001-makeConnected.js) + [掘金](https://juejin.cn/post/7058183594505666597)
 
+    - 交换字符串中的元素 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/126.w1002-smallestStringWithSwaps.js) + [掘金](https://juejin.cn/post/7058252726244737032)
+
   - 2022-01-25
 
     - 合并 K 个升序链表 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/144.w1201-mergeKLists.js) + [掘金](https://juejin.cn/post/7057060619626741790)
