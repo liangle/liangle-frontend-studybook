@@ -68,11 +68,11 @@
 
   - 2022-01-05
 
-    - 最长连续序列 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/124.w1002-longestConsecutive.js)
+    - 最长连续序列 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/124.w1002-longestConsecutive.js) + [掘金](https://juejin.cn/post/7058635667764412447)
 
   - 2022-01-04
 
-    - 移除最多的同行或同列石头 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/125.w1002-removeStones.js)
+    - 移除最多的同行或同列石头 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/125.w1002-removeStones.js) + [掘金](https://juejin.cn/post/7058214489027510285)
 
   - 2022-01-03
 
