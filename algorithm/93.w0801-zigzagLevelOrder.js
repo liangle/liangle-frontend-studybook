@@ -1,29 +1,30 @@
 /**
  * [103. 二叉树的锯齿形层序遍历](https://leetcode-cn.com/problems/binary-tree-zigzag-level-order-traversal/)
  */
-var levelOrderBottom = function (root) {
-  if (!root) return []
-  const queue = [root]
-  const ans = []
+var zigzagLevelOrder = function (root) {
+    const ans = []
 
-  while (queue.length) {
-    const arr = []
-    const len = queue.length
-    const arrLen = ans.length
+    getResult(root, 0, ans)
 
-    for (let i = 0; i < len; i++) {
-      const node = queue.shift()
-      if (arrLen % 2 === 0)
-        arr.push(node.val)
-      else
-        arr.unshift(node.val)
-
-      if (node.left) queue.push(node.left)
-      if (node.right) queue.push(node.right)
+    for (let i = 1; i < ans.length; i += 2) {
+        ans[i].reverse()
+        // reverse(ans[i])
     }
 
-    ans.push(arr)
-  }
-
-  return ans
+    return ans
 };
+
+var reverse = function (arr) {
+    for (let i = 0, j = arr.length - 1; i < j; i++, j--) {
+        [arr[i], arr[j]] = [arr[j], arr[i]]
+    }
+}
+
+var getResult = function (root, k, ans) {
+    if (!root) return null
+
+    if (k === ans.length) ans.push([])
+    ans[k].push(root.val)
+    getResult(root.left, k + 1, ans)
+    getResult(root.right, k + 1, ans)
+}

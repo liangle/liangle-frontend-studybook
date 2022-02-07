@@ -4,19 +4,20 @@
  * @returns 
  */
 var isBalanced = function (root) {
-  if (!root) return true
-  return height(root) >= 0
+  return getHeight(root) >= 0
 };
 
-var height = function (root) {
+// 当不是平衡二叉树时返回负数
+var getHeight = function (root) {
   if (!root) return 0
 
-  let leftLen = height(root.left)
-  let rightLen = height(root.right)
+  const l = getHeight(root.left)
+  const r = getHeight(root.right)
 
-  if (leftLen === -1 || rightLen === -1 || Math.abs(leftLen - rightLen) > 1) {
-    return -1
-  } else {
-    return Math.max(leftLen, rightLen) + 1
-  }
+  // 当左边或右边不平衡时返回负数
+  if (l < 0 || r < 0) return -1
+  // 如果左右都平衡则判断满足条件
+  if (Math.abs(l - r) > 1) return -1
+
+  return Math.max(l, r) + 1
 }

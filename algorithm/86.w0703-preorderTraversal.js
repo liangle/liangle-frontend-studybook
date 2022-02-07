@@ -4,13 +4,15 @@
 var preorderTraversal = function (root) {
   const ans = []
 
-  function _preorderTraversal(root) {
-    if (!root) return
-    ans.push(root.val)
-    _preorderTraversal(root.left)
-    _preorderTraversal(root.right)
-  }
-  _preorderTraversal(root)
+  _preorderTraversal(root, ans)
 
   return ans
 };
+
+var _preorderTraversal = function (root, ans) {
+  if (!root) return;
+
+  ans.push(root.val)
+  _preorderTraversal(root.left, ans)
+  _preorderTraversal(root.right, ans)
+}
