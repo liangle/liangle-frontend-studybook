@@ -81,7 +81,7 @@ var longestConsecutive2 = function (nums) {
             ans = Math.max(ans, i - start + 1)
         } else {
             ans = Math.max(ans, i - start)
-            //如果前后数组不是递增，则更新开始位置
+            //如果前后数字不是递增，则更新开始位置
             start = i
         }
     }
