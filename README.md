@@ -6,6 +6,10 @@
 
 - 01.算法学习
 
+  - 2022-02-10
+
+    - 剑指 Offer 51. 数组中的逆序对 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/140.w1102-reversePairs.js) + [掘金](https://juejin.cn/post/7063014015068274696)
+
   - 2022-01-28
 
     - 冗余连接 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/122.w1001-findRedundantConnection.js) + [掘金](https://juejin.cn/post/7058149907009372174)
@@ -159,17 +163,17 @@
   - 2021-12-12
 
     - 二叉树的前序遍历 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/86.w0703-preorderTraversal.js)
-    - 二叉树最大宽度 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/87.w0703-widthOfBinaryTree.js)
+    - 二叉树最大宽度 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/87.w0703-widthOfBinaryTree.js) + [掘金](https://juejin.cn/post/7061883441700143118/)
 
   - 2021-12-11
 
     - 剑指 Offer 54. 二叉搜索树的第 k 大节点 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/84.w0703-kthLargest.js) + [掘金](https://juejin.cn/post/7040419615566266398/)
-    - 剑指 Offer 26. 树的子结构 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/85.w0703-isSubStructure.js)
+    - 剑指 Offer 26. 树的子结构 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/85.w0703-isSubStructure.js) + [掘金](https://juejin.cn/post/7061933330643550245/)
 
   - 2021-12-10
 
     - 完全二叉树的节点个数 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/82.w0702-countNodes.js) + [掘金](https://juejin.cn/post/7039994799004319758)
-    - 从前序与中序遍历序列构造二叉树 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/83.w0702-buildTree.js)
+    - 从前序与中序遍历序列构造二叉树 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/83.w0702-buildTree.js) + [掘金](https://juejin.cn/post/7061944697001869342)
 
   - 2021-12-09
 
@@ -305,12 +309,14 @@
   - 2021-11-12
 
     - 最长递增子序列 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/27.w0302-length-of-lis.js)
-    - 二路归并排序 [视频](https://www.bilibili.com/video/BV1Sg411P7RY/)
 
   - 2021-11-11
 
-    - 二路归并排序 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/28.w032-sort-array.js) + [掘金](https://juejin.cn/post/7029296492984664071)
+    - 排序数组 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/28.w0302-sort-array.js) + [掘金](https://juejin.cn/post/7062985214280073230) + [视频](https://www.bilibili.com/video/BV1Sg411P7RY/)
+
     - 平方数之和 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/29.w032-judge-square-sum.js)
+
+    - 递归&分治 [掘金](https://juejin.cn/post/7029296492984664071)
 
   - 2021-11-10
 
