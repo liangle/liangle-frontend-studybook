@@ -20,17 +20,17 @@
 
     - 课程表 II [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/155.w1203-findOrder.js) + [掘金](https://juejin.cn/post/7066053285400018952)
 
-- 2022-02-17
+  - 2022-02-17
 
-  - 面试题： 求和路径 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/153.w1202-pathSum.js) + [掘金](https://juejin.cn/post/7066432156108587021)
+    - 面试题： 求和路径 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/153.w1202-pathSum.js) + [掘金](https://juejin.cn/post/7066432156108587021)
 
-  - 递增子序列 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/152.w1202-findSubsequences.js) + [掘金](https://juejin.cn/post/7066435429599297543)
+    - 递增子序列 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/152.w1202-findSubsequences.js) + [掘金](https://juejin.cn/post/7066435429599297543)
 
-- 2022-02-16
+  - 2022-02-16
 
-  - 删除被覆盖区间 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/151.w1202-removeCoveredIntervals.js) + [掘金](https://juejin.cn/post/7066259590370820110)
+    - 删除被覆盖区间 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/151.w1202-removeCoveredIntervals.js) + [掘金](https://juejin.cn/post/7066259590370820110)
 
-  - 合并区间 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/150.w1202-merge.js) + [掘金](https://juejin.cn/post/7066237000747057189)
+    - 合并区间 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/150.w1202-merge.js) + [掘金](https://juejin.cn/post/7066237000747057189)
 
   - 2022-02-12
 
