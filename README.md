@@ -6,6 +6,42 @@
 
 - 01.算法学习
 
+  - 2022-02-19
+
+    - H 指数 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/158.w1203-hIndex.js) + [掘金](https://juejin.cn/post/7066458730828660767)
+
+    - 最大间距 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/158.w1203-hIndex.js) + [掘金](https://juejin.cn/post/7066088875688460295)
+
+  - 2022-02-18
+
+    - 数组的相对排序 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/156.w1203-relativeSortArray.js) + [掘金](https://juejin.cn/post/7065331852180979725)
+
+    - 课程表 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/154.w1203-canFinish.js) + [掘金](https://juejin.cn/post/7065669825854439455)
+
+    - 课程表 II [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/155.w1203-findOrder.js) + [掘金](https://juejin.cn/post/7066053285400018952)
+
+- 2022-02-17
+
+  - 面试题： 求和路径 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/153.w1202-pathSum.js) + [掘金](https://juejin.cn/post/7066432156108587021)
+
+  - 递增子序列 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/152.w1202-findSubsequences.js) + [掘金](https://juejin.cn/post/7066435429599297543)
+
+- 2022-02-16
+
+  - 删除被覆盖区间 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/151.w1202-removeCoveredIntervals.js) + [掘金](https://juejin.cn/post/7066259590370820110)
+
+  - 合并区间 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/150.w1202-merge.js) + [掘金](https://juejin.cn/post/7066237000747057189)
+
+  - 2022-02-12
+
+    - 层数最深叶子节点的和 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/148.w1201-deepestLeavesSum.js) + [掘金](https://juejin.cn/post/7063482654552752165)
+
+  - 2022-02-11
+
+    - 区间和的个数 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/146.w1201-countRangeSum.js) + [掘金](https://juejin.cn/post/7063348833639464997)
+
+    - 计算右侧小于当前元素的个数 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/147.w1201-countSmaller.js) + [掘金](https://juejin.cn/post/7063438206888312845)
+
   - 2022-02-10
 
     - 剑指 Offer 51. 数组中的逆序对 [代码](https://github.com/liangle/liangle-frontend-studybook/tree/master/algorithm/140.w1102-reversePairs.js) + [掘金](https://juejin.cn/post/7063014015068274696)
